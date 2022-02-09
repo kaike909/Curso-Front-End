@@ -1,0 +1,45 @@
+
+table {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    max-width: 100%;
+    width: 100%;
+    background-color: #4150a570;
+    margin: 15px 0px 0px 0px;
+    overflow-x: auto;
+}
+
+table tr, table td {
+    border: 1px solid #ffffff;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+table thead {
+    background-color: #462FDE;
+    font-size: 1.3rem;
+}
+
+table thead tr {
+    text-align: center;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #746dee94;
+}
+
+table tbody tr:hover {
+    background-color: #233183c9;
+}
+
+table tr td:first-child {
+    font-weight: bold;
+}
+
+table tfoot{
+    background-color: #356EFA;
+}
+
+.container tfoot{
+    font-weight: bolder;
+}

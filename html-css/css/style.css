@@ -1,0 +1,202 @@
+@import 'tabelas.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    background: url(../Imagens/plano-de-fundo.jpg) no-repeat center;
+    padding: 5px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+    background-color: #8b3636;
+    background-image: linear-gradient(#D60F3675, #F8E94475);
+    padding: 30px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+
+header > h2 {
+    padding-top: 25px;
+}
+
+nav {
+    float: left;
+    display: table;
+    width: 20%;
+    height: auto;
+    color: white;
+    background: #D60F3675;
+    padding: 20px;
+    text-align: -webkit-center;
+    font-weight: bolder;
+}
+
+nav > h3 {
+    padding: 10px 0;
+}
+
+li {
+    padding: 9px;
+}
+
+nav ul {
+    list-style-type: none;
+    font-weight: lighter;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #b679797c;
+    color: #ffffff;
+}
+
+article > h3 {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+article > h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+article p {
+    padding: 10px;
+}
+
+
+.patern {
+    background-image: url(../Imagens/geometrical-pattern-01-remix.png);
+    height: auto;
+}
+
+.starbucks img {
+    max-width: 100%;
+    width: 350px;
+    transition: all 1s ease;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 #00000044;
+    margin: 0px auto;
+    display: flex;
+}
+
+div img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 2px 4px 0 #00000057;
+}
+
+.colunas {
+    display: block;
+    width: 33%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    background: #8b3636;
+    border: 1px solid #000000;
+}
+
+section::after {
+    background: #cccccc;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    height: 100px;
+    border-radius: 0 0 15px 15px;
+    background-color: #8b3636;
+    background-image: linear-gradient(#f8e94475, #D60F3675);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer > p {
+    margin: 25px 0;
+    padding: 6px;
+}
+
+label {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+form div {
+    position: relative;
+    width: 20em;
+    border-bottom: 1px dashed #000000;
+    padding: 3px 2px 15px 2px;
+    margin: 8px 0 8px 0;
+}
+
+[type="text"], [type="email"], textarea, label {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+@media (max-width:1065px) {
+    
+    nav {
+        width: 30%;
+    } 
+    
+    article {
+        width: 70%;
+        display: block;
+    }
+    
+
+}
+
+@media (max-width:750px) {
+    nav {
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .tabelaSm {
+        width: 100%;
+        transform: scale(0.8);
+        margin: 0 -42px;
+    }
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+
+    .colunas {
+        width: 100%;
+    }
+}
