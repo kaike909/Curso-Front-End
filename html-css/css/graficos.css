@@ -27,7 +27,7 @@ header {
     color: white;
 }
 
-header > h2 {
+header > h3 {
     padding-top: 25px;
 }
 
@@ -75,6 +75,8 @@ div {
     background-color: #8b3636;
     width: 300px;
     height: 300px;
+    max-width: 100%;
+    max-height: 100%;
     box-shadow: 0 2px 4px 0 #00000044;
     overflow: hidden;
     border-radius: 50%;
@@ -153,9 +155,40 @@ footer > p {
 }
 
 @media (max-width: 1000px) {
-    nav,
+    nav {
+        width: 30%;
+        height: auto;
+    }
     article {
+        width: 70%;
+        height: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 425px) {
+
+    header > h3 {
+        padding: 0;
+        font-size: 40px;
+    }
+
+    nav,article {
         width: 100%;
         display: block;
+    }
+
+    #foto1 {
+        width: 300px;
+        height: 300px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 325px) {
+    #foto1 {
+        width: 250px;
+        height: 250px;
     }
 }

@@ -29,7 +29,7 @@ header {
     color: white;
 }
 
-header > h2 {
+header > h3 {
     padding-top: 25px;
 }
 
@@ -184,6 +184,11 @@ form div {
 
 @media (max-width: 425px) {
 
+    header > h2 {
+        padding: 0;
+        font-size: 40px;
+    }
+
     .tabelaSm {
         width: 100%;
         transform: scale(0.8);
@@ -197,6 +202,17 @@ form div {
     }
 
     .colunas {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .tabelaSm {
+        transform: scale(0.6);
+        margin: 0 -97px;
+    }
+
+    form div{
         width: 100%;
     }
 }

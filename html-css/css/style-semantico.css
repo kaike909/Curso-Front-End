@@ -29,7 +29,7 @@ header {
     color: white;
 }
 
-header > h2 {
+header > h3 {
     padding-top: 25px;
 }
 
@@ -194,6 +194,11 @@ footer > p {
 
 @media (max-width: 425px) {
 
+    header > h3 {
+        padding: 0;
+        font-size: 40px;
+    }
+
     body {
         background-clip: border-box;
         background-size: cover;
@@ -207,5 +212,13 @@ footer > p {
 
     .colunas{
         width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+
+    header > h3 {
+        padding: 0;
+        font-size: 40px;
     }
 }
