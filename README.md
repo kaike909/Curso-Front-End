@@ -61,18 +61,18 @@ git flow init
 Which branch should be used for bringing forth production releases?
    - dev
    - main
-Branch name for production releases: [main] 
+Branch name for production releases: {main} 
 
 Which branch should be used for integration of the "next release"?
    - dev
 Branch name for "next release" development: [] dev
 
 How to name your supporting branch prefixes?
-Feature branches? [feature/] 
-Bugfix branches? [bugfix/] 
-Release branches? [release/] 
-Hotfix branches? [hotfix/] 
-Support branches? [support/] 
+Feature branches? {feature/} 
+Bugfix branches? {bugfix/} 
+Release branches? {release/} 
+Hotfix branches? {hotfix/}
+Support branches? {support/} 
 Version tag prefix? []
 
 git flow feature start {nome da feature}
