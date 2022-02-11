@@ -39,6 +39,40 @@ Sao ramificacoes/Versoes Paralelas
 - DOD Definition of Done: Criterios de Aceite
 - Versionamento Ex:0.1.10/0.1.14/1.0.0;
 
+git checkout -b dev (Cria uma nova branch)
+git checkout master (mudar de branch)
+
 ### Merge
 
 Mescla das branchs
+Voce pode precisar resolver conflitos manualmente
+
+git merge main
+
+### Pull requests
+
+Mescla de branchs no repositorio
+Premite code review
+O Repositorio resolve conflitos automaticamente
+
+### configura o GitFlow
+git flow init
+
+Which branch should be used for bringing forth production releases?
+   - dev
+   - main
+Branch name for production releases: [main] 
+
+Which branch should be used for integration of the "next release"?
+   - dev
+Branch name for "next release" development: [] dev
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/] 
+Bugfix branches? [bugfix/] 
+Release branches? [release/] 
+Hotfix branches? [hotfix/] 
+Support branches? [support/] 
+Version tag prefix? []
+
+git flow feature start {nome da feature}
