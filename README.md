@@ -76,3 +76,4 @@ Support branches? {support/}
 Version tag prefix? []
 
 git flow feature start {nome da feature}
+git flow feature finsh {nome da feature}
